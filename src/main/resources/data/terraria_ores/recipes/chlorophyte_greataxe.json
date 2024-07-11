@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "terraria_ores:chlorophyte_ingot"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X#X",
+    " # "
+  ],
+  "result": {
+    "item": "terraria_ores:chlorophyte_greataxe"
+  },
+  "show_notification": true
+}

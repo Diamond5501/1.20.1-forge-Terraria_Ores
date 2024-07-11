@@ -1,6 +1,13 @@
 package net.diamond_5501.terraria_ores;
 
 import com.mojang.logging.LogUtils;
+import net.diamond_5501.terraria_ores.block.ModBlocks;
+import net.diamond_5501.terraria_ores.block.entity.ModBlockEntities;
+import net.diamond_5501.terraria_ores.item.ModCreativeModTabs;
+import net.diamond_5501.terraria_ores.item.ModItems;
+import net.diamond_5501.terraria_ores.util.ModWoodTypes;
+import net.minecraft.client.renderer.Sheets;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -27,6 +34,13 @@ public class TerrariaOres
     public TerrariaOres() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
+        ModItems.register(modEventBus);
+
+        ModBlockEntities.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -38,7 +52,10 @@ public class TerrariaOres
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.TIN_INGOT);
+            event.accept(ModItems.RAW_TIN);
+        }
     }
 
     @SubscribeEvent
@@ -50,6 +67,7 @@ public class TerrariaOres
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            Sheets.addWoodType(ModWoodTypes.BOREAL);
 
         }
     }

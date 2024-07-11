@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "terraria_ores:cobalt_ingot"
+    }
+  },
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "item": "terraria_ores:cobalt_boots"
+  },
+  "show_notification": true
+}

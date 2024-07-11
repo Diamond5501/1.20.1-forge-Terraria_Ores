@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "X": {
+      "item": "terraria_ores:hellstone_ingot"
+    }
+  },
+  "pattern": [
+    " X#",
+    "X #",
+    " X#"
+  ],
+  "result": {
+    "item": "terraria_ores:molten_fury"
+  },
+  "show_notification": true
+}

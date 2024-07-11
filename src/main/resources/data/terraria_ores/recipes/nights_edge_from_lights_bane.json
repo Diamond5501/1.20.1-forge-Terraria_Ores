@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "terraria_ores:blade_of_grass"
+    },
+    {
+      "item": "terraria_ores:lights_bane"
+    },
+    {
+      "item": "terraria_ores:muramasa"
+    },
+    {
+      "item": "terraria_ores:volcano"
+    }
+  ],
+  "result": {
+    "item": "terraria_ores:nights_edge"
+  },
+  "show notification": true
+}

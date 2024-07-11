@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_sign",
+  "key": {
+    "#": {
+      "item": "terraria_ores:stripped_boreal_log"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "result": {
+    "count": 6,
+    "item": "terraria_ores:boreal_hanging_sign"
+  },
+  "show_notification": true
+}

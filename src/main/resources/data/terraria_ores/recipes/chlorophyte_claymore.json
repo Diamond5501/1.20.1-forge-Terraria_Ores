@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "terraria_ores:chlorophyte_ingot"
+    }
+  },
+  "pattern": [
+    " XX",
+    "XXX",
+    "#X "
+  ],
+  "result": {
+    "item": "terraria_ores:chlorophyte_claymore"
+  },
+  "show_notification": true
+}

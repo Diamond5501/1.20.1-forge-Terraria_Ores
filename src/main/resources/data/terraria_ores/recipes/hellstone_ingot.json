@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "terraria_ores:raw_hellstone"
+    },
+    {
+      "item": "terraria_ores:raw_hellstone"
+    },
+    {
+      "item": "terraria_ores:raw_hellstone"
+    }
+  ],
+  "result": {
+    "item": "terraria_ores:hellstone_ingot"
+  },
+  "show notification": true
+}

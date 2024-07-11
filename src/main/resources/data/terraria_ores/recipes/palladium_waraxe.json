@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "terraria_ores:palladium_ingot"
+    }
+  },
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "result": {
+    "item": "terraria_ores:palladium_waraxe"
+  },
+  "show_notification": true
+}

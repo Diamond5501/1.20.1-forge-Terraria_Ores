@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "terraria_ores:jungle_spores"
+    },
+    "B": {
+      "item": "terraria_ores:stinger"
+    },
+    "C": {
+      "item": "minecraft:vine"
+    }
+  },
+  "pattern": [
+    " BA",
+    "CAB",
+    "AC "
+  ],
+  "result": {
+    "item": "terraria_ores:blade_of_grass"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_sign",
+  "key": {
+    "#": {
+      "item": "terraria_ores:boreal_planks"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "result": {
+    "count": 3,
+    "item": "terraria_ores:boreal_sign"
+  },
+  "show_notification": true
+}

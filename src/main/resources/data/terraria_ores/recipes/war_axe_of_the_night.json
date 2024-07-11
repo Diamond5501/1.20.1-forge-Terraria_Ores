@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "terraria_ores:demonite_ingot"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X#X",
+    " # "
+  ],
+  "result": {
+    "item": "terraria_ores:war_axe_of_the_night"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:blue_dye"
+    },
+    "X": {
+      "item": "terraria_ores:phaseblade_blank"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "terraria_ores:blue_phaseblade"
+  },
+  "show_notification": true
+}

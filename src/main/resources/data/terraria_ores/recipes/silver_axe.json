@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "terraria_ores:silver_ingot"
+    }
+  },
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "result": {
+    "item": "terraria_ores:silver_axe"
+  },
+  "show_notification": true
+}

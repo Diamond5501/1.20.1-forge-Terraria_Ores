@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "terraria_ores:hellstone_ingot"
+    }
+  },
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "terraria_ores:molten_shovel"
+  },
+  "show_notification": true
+}

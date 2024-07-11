@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+      "X": {
+        "item": "terraria_ores:adamantite_ingot"
+      }
+    },
+    "pattern": [
+      " XX",
+      " XX",
+      "X  "
+    ],
+    "result": {
+      "item": "terraria_ores:adamantite_glaive"
+    },
+    "show_notification": true
+  }

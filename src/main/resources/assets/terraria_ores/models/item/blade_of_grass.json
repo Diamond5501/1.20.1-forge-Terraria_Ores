@@ -1,0 +1,18 @@
+{
+"parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "terraria_ores:item/blade_of_grass_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "terraria_ores:item/blade_of_grass_2d"
+    },
+    "ground": {
+      "parent": "terraria_ores:item/blade_of_grass_2d"
+    },
+    "fixed": {
+      "parent": "terraria_ores:item/blade_of_grass_2d"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "terraria_ores:mythril_ingot"
+    }
+  },
+  "pattern": [
+    "XX ",
+    "X#X",
+    " # "
+  ],
+  "result": {
+    "item": "terraria_ores:mythril_waraxe"
+  },
+  "show_notification": true
+}
